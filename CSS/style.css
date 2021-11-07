@@ -37,33 +37,39 @@ a {
 /* area de postagens*/
 
 body{
-    background: #75b2ca;
+    background: #bfd6e0;
 }
 
-#conteudos .titulo-nome {
-    padding-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-#conteudos .titulo-nome .nome {
-    font-size: 1.5em;
-    border-radius: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
-    background: #0166e1;
-    padding: 10px;
-}
-
-#conteudos .sobre {
-    font-size: 1.2em;
-    padding: 25px;
-    font-weight: 500;
-}
-
-#redes-sociais {
-    padding-top: 20px;
+.titulo {
     text-align: center;
-    padding-bottom: 10px;
+    padding: 15px;
+}
+
+#conteudos .conteudo-esquerdo {
+    width: 180px;
+    float: left;
+    padding-left: 10px;
+    border-right: 1px solid #fff;
+}
+
+#conteudos .conteudo-esquerdo img {
+    width: 180px;
+}
+
+#conteudos .conteudo-direito img {
+    width: 180px;
+}
+
+#conteudos .conteudo-direito {
+    width: 180px;
+    float: left;
+}
+
+#conteudos .conteudo-direito h3,p {
+    padding: 0 0 5px 5px;
+}
+
+#conteudos .conteudo-esquerdo h3,p {
+    padding: 0 0 5px 5px;
 }
