@@ -46,30 +46,65 @@ body{
     padding: 15px;
 }
 
-#conteudos .conteudo-esquerdo {
-    width: 180px;
-    float: left;
-    padding-left: 10px;
-    border-right: 1px solid #fff;
-}
-
-#conteudos .conteudo-esquerdo img {
+img {
     width: 180px;
 }
 
-#conteudos .conteudo-direito img {
-    width: 180px;
+.conteudo {
+    float:left
 }
 
-#conteudos .conteudo-direito {
-    width: 180px;
-    float: left;
+#conteudo {
+    background: #bfd6e0;
+    display: flex;
+
+    /*
+    row|rowreverse|column|colum-reverse
+    */
+    flex-direction: rowreverse;
+    
+    /*
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap: wrap;
+
+    /*
+    flex-start|flex-end|center|space|between|space-around
+    */
+    justify-content: space-around;
+
+    /*
+    stretch|center|flex-start|flex-end|baseline
+    */
+    align-items: flex-start;
 }
 
-#conteudos .conteudo-direito h3,p {
-    padding: 0 0 5px 5px;
+.item{
+    width: 100px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 5px;
 }
 
-#conteudos .conteudo-esquerdo h3,p {
-    padding: 0 0 5px 5px;
+#conteudo img {
+    width: 100px;
+}
+
+#conteudo p {
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+}
+
+.logowhatsapp{
+    position: fixed;
+    top: 470px;
+    left: 78%;
+}
+
+.logowhatsapp img {
+    width: 60px;
 }
