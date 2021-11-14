@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* layout */
+
+
+#area-cabecalho{
+    background-color: #0ce9e2;
+    padding: 15px;
+    text-align: center;
+    background: linear-gradient(#0ce9e2, #0166e1);
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.411);
+}
+
+#area-menu {
+    padding-top: 25px;
+}
+
+a {
+    padding: 4px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 4px;
+    font-family: 'Ranchers', cursive;
+}
+
+#area-cabecalho a:hover {
+    background: #0cd3cc;
+    color:black;
+    border-radius: 25px;
+    transition: 0.8s;
+}
+
+/* area de postagens*/
+
+body{
+    background: #bfd6e0;
+}
+
+
+.titulo {
+    text-align: center;
+    padding: 15px;
+}
+
+img {
+    width: 180px;
+}
+
+.conteudo {
+    float:left
+}
+
+#conteudo {
+    background: #bfd6e0;
+    display: flex;
+
+    /*
+    row|rowreverse|column|colum-reverse
+    */
+    flex-direction: rowreverse;
+    
+    /*
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap: wrap;
+
+    /*
+    flex-start|flex-end|center|space|between|space-around
+    */
+    justify-content: space-around;
+
+    /*
+    stretch|center|flex-start|flex-end|baseline
+    */
+    align-items: flex-start;
+}
+
+.item{
+    width: 100px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#conteudo img {
+    width: 100px;
+}
+
+#conteudo p {
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+}
+
+.logowhatsapp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 40px;
+    
+}
+.logowhatsapp img {
+    width: 60px;
+}
