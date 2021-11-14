@@ -101,8 +101,10 @@ footer {
 
 .logowhatsapp{
     position: fixed;
-    top: 470px;
-    left: 78%;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 40px;
 }
 
 .logowhatsapp img {
